@@ -1,0 +1,29 @@
+@import "fonts.css";
+@import "~normalize.css";
+
+body {
+  font-family: "Raleway regular", "sans-serif";
+}
+
+h1 {
+  text-align: center;
+  font-family: "Raleway bold", "sans-serif";
+}
+
+.container {
+  margin: 0;
+  padding: 0 120px;
+}
+
+.content {
+  font-size: 16px;
+  color: #403e3e;
+}
+
+.logo {
+  background-image: url("../assets/webpack.png");
+  background-size: cover;
+  height: 180px;
+  width: 180px;
+  margin: 0 auto;
+}
